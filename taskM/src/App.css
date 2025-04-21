@@ -1,0 +1,74 @@
+body{
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+h1{
+  text-align: center;
+  margin-top: 45px;
+}
+
+.container{
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  max-height: 90vh;
+  margin-top: 50px;
+}
+
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+
+.input-item label{
+  font-size: 18px;
+}
+
+.input-item input{
+  padding: 7px;
+  font-style: unset;
+  margin-top: 10px;
+  border-radius: 7px;
+  border: none;
+}
+
+.input-item button{
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: lightgreen;
+}
+
+.input-item button:hover{
+  background-color: rgb(0, 151, 0);
+  cursor: pointer;
+}
+
+.secondary{
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px;
+}
+
+.active{
+  background-color: grey;
+  border: none;
+  width: fit-content;
+}
+
